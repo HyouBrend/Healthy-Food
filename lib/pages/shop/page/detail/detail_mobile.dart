@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyouka/pages/shop/model/product.dart';
-import 'package:hyouka/pages/shop/ui/detail_page.dart';
+import 'package:hyouka/pages/shop/page/detail_page.dart';
 
 class DetailMobilePage extends StatelessWidget {
   Product product;

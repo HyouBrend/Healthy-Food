@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyouka/pages/about/about.dart';
 import 'package:hyouka/pages/login/login.dart';
-import 'package:hyouka/pages/shop/ui/shop_page.dart';
+import 'package:hyouka/pages/shop/page/shop_page.dart';
 
 class Navbar extends StatelessWidget {
   @override

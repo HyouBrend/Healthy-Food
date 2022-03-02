@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyouka/pages/shop/model/product.dart';
-import 'package:hyouka/pages/shop/ui/detail_page.dart';
+import 'package:hyouka/pages/shop/page/detail_page.dart';
 
 class DetailWebPage extends StatefulWidget {
   Product product;
@@ -37,8 +37,7 @@ class _DetailWebPageState extends State<DetailWebPage> {
                       child: Row(
                         children: [
                           Expanded(
-                              child:
-                                  Image.asset(widget.product.imageProducts)),
+                              child: Image.asset(widget.product.imageProducts)),
                           SizedBox(width: 18.0),
                           Expanded(
                             child: Column(
@@ -51,11 +50,11 @@ class _DetailWebPageState extends State<DetailWebPage> {
                                   children: [
                                     Text(
                                       widget.product.price,
-                              style: GoogleFonts.convergence(
-                                fontWeight: FontWeight.w500,
-                                color: const Color(0xFFFFD600),
-                                fontSize: 24,
-                              ),
+                                      style: GoogleFonts.convergence(
+                                        fontWeight: FontWeight.w500,
+                                        color: const Color(0xFFFFD600),
+                                        fontSize: 24,
+                                      ),
                                     ),
                                     FavoriteButton()
                                   ],

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hyouka/pages/shop/model/product.dart';
-import 'package:hyouka/pages/shop/ui/detail/detail_mobile.dart';
-import 'package:hyouka/pages/shop/ui/detail/detail_web.dart';
+import 'package:hyouka/pages/shop/page/detail/detail_mobile.dart';
+import 'package:hyouka/pages/shop/page/detail/detail_web.dart';
 
 class DetailPage extends StatelessWidget {
   Product product;

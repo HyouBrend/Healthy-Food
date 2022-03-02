@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:hyouka/pages/shop/data/data.dart';
 import 'package:hyouka/pages/shop/model/product.dart';
-import 'package:hyouka/pages/shop/ui/detail_page.dart';
+import 'package:hyouka/pages/shop/page/detail_page.dart';
 
 class ProductList extends StatelessWidget {
   @override
@@ -32,8 +32,7 @@ class ProductList extends StatelessWidget {
                   children: <Widget>[
                     Expanded(
                         flex: 2,
-                        child:
-                            Image(image: AssetImage(product.imageProducts))),
+                        child: Image(image: AssetImage(product.imageProducts))),
                     Expanded(
                       flex: 4,
                       child: Padding(
@@ -42,7 +41,8 @@ class ProductList extends StatelessWidget {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: <Widget>[
-                            Text(product.title,
+                            Text(
+                              product.title,
                               style: GoogleFonts.convergence(
                                 fontWeight: FontWeight.normal,
                                 color: Color(0xffffffff),

@@ -1,5 +1,5 @@
 import '../model/product.dart';
-import '../util/category.dart';
+import '../data/category.dart';
 
 var listOfProducts = [
   Product(
@@ -12,8 +12,8 @@ var listOfProducts = [
       realPrice: 20000,
       storeName: 'JoaShop',
       city: 'Jakarta',
-      description: 'Apples are a type of fruit, or fruit produced from the apple tree. Apples are usually red in color when ripe and (ready to eat), but they can also have green or yellow skin. The skin of the fruit is a bit soft and the flesh is hard. Apples have some seeds in them.'
-          ),
+      description:
+          'Apples are a type of fruit, or fruit produced from the apple tree. Apples are usually red in color when ripe and (ready to eat), but they can also have green or yellow skin. The skin of the fruit is a bit soft and the flesh is hard. Apples have some seeds in them.'),
   Product(
       id: '2',
       title: 'Avocado',
@@ -25,15 +25,14 @@ var listOfProducts = [
       storeName: 'BrenShop',
       city: 'Banten',
       description:
-          'Avocado or avocado (Persea americana) is a table fruit-producing plant of the same name. This plant originates from Mexico and Central America and is now widely cultivated in South and Central America as a monoculture plantation crop and as a garden plant in other tropical regions of the world. \n\nTree, with trunk up to 20 m high with leaves 12 to 25 cm long. The flowers are hidden with a yellowish green color and measure from 5 to 10 millimeters. Their size varies from 7 to 20 centimeters, with a mass of 100 to 1000 grams; large seeds, 5 to 6.4 centimeters. \n\nThe fruit is buni type, has an uneven soft skin, dark green to brownish purple, depending on the variety. Avocado flesh is light green near the skin and light yellow near the seeds, with a soft texture.'
-  ),
+          'Avocado or avocado (Persea americana) is a table fruit-producing plant of the same name. This plant originates from Mexico and Central America and is now widely cultivated in South and Central America as a monoculture plantation crop and as a garden plant in other tropical regions of the world. \n\nTree, with trunk up to 20 m high with leaves 12 to 25 cm long. The flowers are hidden with a yellowish green color and measure from 5 to 10 millimeters. Their size varies from 7 to 20 centimeters, with a mass of 100 to 1000 grams; large seeds, 5 to 6.4 centimeters. \n\nThe fruit is buni type, has an uneven soft skin, dark green to brownish purple, depending on the variety. Avocado flesh is light green near the skin and light yellow near the seeds, with a soft texture.'),
   Product(
       id: '3',
       title: 'Grape',
       imageProducts: 'images/product_grape.jpg',
       imageSeller: 'images/product_grape.jpg',
       category: CategoryType.Fruit,
-      price: 'Rp 18.000,-',
+      price: 'Rp 18.000/Kg',
       realPrice: 18000,
       storeName: 'Shopyey',
       city: 'Jakarta',
@@ -45,7 +44,7 @@ var listOfProducts = [
       imageProducts: 'images/product_mango.jpg',
       imageSeller: 'images/product_mango.jpg',
       category: CategoryType.Fruit,
-      price: 'Rp 22.000,-',
+      price: 'Rp 22.000/Kg',
       realPrice: 22000,
       storeName: 'Storega',
       city: 'Bandung',
@@ -54,10 +53,10 @@ var listOfProducts = [
   Product(
       id: '5',
       title: 'Orange',
-      imageProducts:  'images/product_orange.jpg',
+      imageProducts: 'images/product_orange.jpg',
       imageSeller: 'images/product_orange.jpg',
       category: CategoryType.Fruit,
-      price: 'Rp 15.000,-',
+      price: 'Rp 15.000/Kg',
       realPrice: 15000,
       storeName: 'Christore',
       city: 'Medan',
@@ -69,7 +68,7 @@ var listOfProducts = [
       imageProducts: 'images/product_strawberry.jpg',
       imageSeller: 'images/product_strawberry.jpg',
       category: CategoryType.Fruit,
-      price: 'Rp 30.000,-',
+      price: 'Rp 30.000/Kg',
       realPrice: 30000,
       storeName: 'PinkStore',
       city: 'Jakarta',
